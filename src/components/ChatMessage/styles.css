@@ -1,0 +1,31 @@
+img,
+p{
+    display: block;
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.message.sent img{
+    float: right;
+}
+
+.message.sent p{
+    float: right;
+}
+
+.message.received img{
+    float: left;
+}
+
+.message.received p{
+    float: left;
+}
+
+.clearfix{
+    display: block;
+    float: none;
+    clear: both;
+}
