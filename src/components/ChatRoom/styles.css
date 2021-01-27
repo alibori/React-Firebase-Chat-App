@@ -1,5 +1,7 @@
 main{
-    width: 80%;
+    width: 90%;
+    height: 65vh;
+    overflow-y: scroll;
     margin: 0 auto;
     padding: 10px;
     background-color: blanchedalmond;

@@ -1,4 +1,6 @@
 .App-content {
+  margin: 0;
+  padding: 0;
   text-align: center;
   background-color: #4d266d;
   min-height: 100vh;

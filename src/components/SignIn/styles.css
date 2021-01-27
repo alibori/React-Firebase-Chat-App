@@ -1,0 +1,23 @@
+.btn-login {
+  display: flex;
+  flex-basis: 15%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color: steelblue;
+  color: antiquewhite;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+.google-logo {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  margin-right: 5px;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+}

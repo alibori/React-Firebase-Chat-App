@@ -2,10 +2,22 @@ img,
 p{
     display: block;
 }
+
+p{
+    margin-top: 15px;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: lightgray;
+}
+
 img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+.message{
+    text-align: right;
 }
 
 .message.sent img{
@@ -14,6 +26,11 @@ img{
 
 .message.sent p{
     float: right;
+    border-top-right-radius: 0px;
+}
+
+.message.received{
+    text-align: left;
 }
 
 .message.received img{
@@ -22,6 +39,13 @@ img{
 
 .message.received p{
     float: left;
+    border-top-left-radius: 0px;
+}
+
+.date{
+    display: block;
+    font-size: 12px;
+    color: gray;
 }
 
 .clearfix{
